@@ -23,6 +23,13 @@ header{
        &::after{
         content:"*";
         position: absolute;
+        transform: translateY(-6px);
+        color: pink;
+        transition: 0.2s;
+       }
+
+       &:hover::after{
+        transform: scale(2);
        }
 
     }
