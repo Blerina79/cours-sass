@@ -5,6 +5,14 @@ $color3:cyan;
 $white:rgb(241,241, 241);
 $black:rgb(23, 23, 23);
 
+
+//mixins
+@mixin centerChild {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body{
     background: $color2;
 }
