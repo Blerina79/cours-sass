@@ -18,22 +18,7 @@ body{
 }
 
 
-nav {
-    background: pink;
-    border-radius: 10px;
 
-
-    ul{
-        display: flex;
-        justify-content: space-around;
-        height: 40px;
-        align-items: center;
-
-        li{
-            list-style: none;
-        }
-    }
-}
 
 header{
     h1{
@@ -42,7 +27,7 @@ header{
 
        @media screen and (max-width:700px){
         font-size:1rem;
-        
+
        }
 
        &::after{
